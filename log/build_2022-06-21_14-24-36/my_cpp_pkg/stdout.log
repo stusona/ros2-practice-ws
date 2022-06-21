@@ -38,20 +38,20 @@
 -- Added test 'xmllint' to check XML markup files
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/stu/ros2-ws/build/my_cpp_pkg
+-- Build files have been written to: /home/stu/ros2-practice-ws/build/my_cpp_pkg
 -- Install configuration: ""
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
--- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+-- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml

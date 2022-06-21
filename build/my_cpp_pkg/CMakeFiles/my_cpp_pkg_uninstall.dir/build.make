@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stu/ros2-ws/my_cpp_pkg
+CMAKE_SOURCE_DIR = /home/stu/ros2-practice-ws/my_cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stu/ros2-ws/build/my_cpp_pkg
+CMAKE_BINARY_DIR = /home/stu/ros2-practice-ws/build/my_cpp_pkg
 
 # Utility rule file for my_cpp_pkg_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/stu/ros2-ws/build/my_cpp_pkg
 include CMakeFiles/my_cpp_pkg_uninstall.dir/progress.make
 
 CMakeFiles/my_cpp_pkg_uninstall:
-	/usr/bin/cmake -P /home/stu/ros2-ws/build/my_cpp_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/stu/ros2-practice-ws/build/my_cpp_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 my_cpp_pkg_uninstall: CMakeFiles/my_cpp_pkg_uninstall
 my_cpp_pkg_uninstall: CMakeFiles/my_cpp_pkg_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/my_cpp_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/my_cpp_pkg_uninstall.dir/clean
 
 CMakeFiles/my_cpp_pkg_uninstall.dir/depend:
-	cd /home/stu/ros2-ws/build/my_cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stu/ros2-ws/my_cpp_pkg /home/stu/ros2-ws/my_cpp_pkg /home/stu/ros2-ws/build/my_cpp_pkg /home/stu/ros2-ws/build/my_cpp_pkg /home/stu/ros2-ws/build/my_cpp_pkg/CMakeFiles/my_cpp_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stu/ros2-practice-ws/build/my_cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stu/ros2-practice-ws/my_cpp_pkg /home/stu/ros2-practice-ws/my_cpp_pkg /home/stu/ros2-practice-ws/build/my_cpp_pkg /home/stu/ros2-practice-ws/build/my_cpp_pkg /home/stu/ros2-practice-ws/build/my_cpp_pkg/CMakeFiles/my_cpp_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/my_cpp_pkg_uninstall.dir/depend
 

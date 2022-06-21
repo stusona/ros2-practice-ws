@@ -1,4 +1,4 @@
-[0.017s] Invoking command in '/home/stu/ros2-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/stu/ros2-ws/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/stu/ros2-ws/install/my_cpp_pkg
+[0.017s] Invoking command in '/home/stu/ros2-practice-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/stu/ros2-practice-ws/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/stu/ros2-practice-ws/install/my_cpp_pkg
 [0.071s] -- The C compiler identification is GNU 9.4.0
 [0.143s] -- The CXX compiler identification is GNU 9.4.0
 [0.146s] -- Check for working C compiler: /usr/bin/cc
@@ -39,25 +39,25 @@
 [1.251s] -- Added test 'xmllint' to check XML markup files
 [1.253s] -- Configuring done
 [1.254s] -- Generating done
-[1.255s] -- Build files have been written to: /home/stu/ros2-ws/build/my_cpp_pkg
-[1.260s] Invoked command in '/home/stu/ros2-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/stu/ros2-ws/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/stu/ros2-ws/install/my_cpp_pkg
-[1.262s] Invoking command in '/home/stu/ros2-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/stu/ros2-ws/build/my_cpp_pkg -- -j4 -l4
-[1.289s] Invoked command in '/home/stu/ros2-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/stu/ros2-ws/build/my_cpp_pkg -- -j4 -l4
-[1.313s] Invoking command in '/home/stu/ros2-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/stu/ros2-ws/build/my_cpp_pkg
+[1.255s] -- Build files have been written to: /home/stu/ros2-practice-ws/build/my_cpp_pkg
+[1.260s] Invoked command in '/home/stu/ros2-practice-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/stu/ros2-practice-ws/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/stu/ros2-practice-ws/install/my_cpp_pkg
+[1.262s] Invoking command in '/home/stu/ros2-practice-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/stu/ros2-practice-ws/build/my_cpp_pkg -- -j4 -l4
+[1.289s] Invoked command in '/home/stu/ros2-practice-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/stu/ros2-practice-ws/build/my_cpp_pkg -- -j4 -l4
+[1.313s] Invoking command in '/home/stu/ros2-practice-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/stu/ros2-practice-ws/build/my_cpp_pkg
 [1.319s] -- Install configuration: ""
-[1.319s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
-[1.319s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
-[1.319s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
-[1.319s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
-[1.319s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
-[1.319s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
-[1.319s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
-[1.319s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
-[1.319s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
-[1.319s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
-[1.319s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
-[1.319s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
-[1.320s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
-[1.320s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
-[1.320s] -- Installing: /home/stu/ros2-ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
-[1.322s] Invoked command in '/home/stu/ros2-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/stu/ros2-ws/build/my_cpp_pkg
+[1.319s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[1.319s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[1.319s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[1.319s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[1.319s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.319s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.319s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.319s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.319s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.319s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.319s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.319s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.320s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.320s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.320s] -- Installing: /home/stu/ros2-practice-ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.322s] Invoked command in '/home/stu/ros2-practice-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/stu/ros2-practice-ws/build/my_cpp_pkg

@@ -1,6 +1,6 @@
-Invoking command in '/home/stu/ros2-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/stu/ros2-ws/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/stu/ros2-ws/install/my_cpp_pkg
-Invoked command in '/home/stu/ros2-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/stu/ros2-ws/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/stu/ros2-ws/install/my_cpp_pkg
-Invoking command in '/home/stu/ros2-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/stu/ros2-ws/build/my_cpp_pkg -- -j4 -l4
-Invoked command in '/home/stu/ros2-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/stu/ros2-ws/build/my_cpp_pkg -- -j4 -l4
-Invoking command in '/home/stu/ros2-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/stu/ros2-ws/build/my_cpp_pkg
-Invoked command in '/home/stu/ros2-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/stu/ros2-ws/build/my_cpp_pkg
+Invoking command in '/home/stu/ros2-practice-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/stu/ros2-practice-ws/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/stu/ros2-practice-ws/install/my_cpp_pkg
+Invoked command in '/home/stu/ros2-practice-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/stu/ros2-practice-ws/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/stu/ros2-practice-ws/install/my_cpp_pkg
+Invoking command in '/home/stu/ros2-practice-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/stu/ros2-practice-ws/build/my_cpp_pkg -- -j4 -l4
+Invoked command in '/home/stu/ros2-practice-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/stu/ros2-practice-ws/build/my_cpp_pkg -- -j4 -l4
+Invoking command in '/home/stu/ros2-practice-ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/stu/ros2-practice-ws/build/my_cpp_pkg
+Invoked command in '/home/stu/ros2-practice-ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/stu/ros2-practice-ws/build/my_cpp_pkg

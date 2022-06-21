@@ -1,4 +1,4 @@
-[0.440s] Invoking command in '/home/stu/ros2-ws/my_py_pkg': PYTHONPATH=/home/stu/ros2-ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/stu/ros2-ws/build/my_py_pkg/build install --prefix /home/stu/ros2-ws/install/my_py_pkg --record /home/stu/ros2-ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.440s] Invoking command in '/home/stu/ros2-practice-ws/my_py_pkg': PYTHONPATH=/home/stu/ros2-practice-ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/stu/ros2-practice-ws/build/my_py_pkg/build install --prefix /home/stu/ros2-practice-ws/install/my_py_pkg --record /home/stu/ros2-practice-ws/build/my_py_pkg/install.log --single-version-externally-managed
 [0.580s] running egg_info
 [0.581s] creating ../build/my_py_pkg/my_py_pkg.egg-info
 [0.581s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
@@ -11,23 +11,23 @@
 [0.607s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
 [0.607s] running build
 [0.607s] running build_py
-[0.608s] creating /home/stu/ros2-ws/build/my_py_pkg/build
-[0.608s] creating /home/stu/ros2-ws/build/my_py_pkg/build/lib
-[0.608s] creating /home/stu/ros2-ws/build/my_py_pkg/build/lib/my_py_pkg
-[0.608s] copying my_py_pkg/__init__.py -> /home/stu/ros2-ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.608s] creating /home/stu/ros2-practice-ws/build/my_py_pkg/build
+[0.608s] creating /home/stu/ros2-practice-ws/build/my_py_pkg/build/lib
+[0.608s] creating /home/stu/ros2-practice-ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.608s] copying my_py_pkg/__init__.py -> /home/stu/ros2-practice-ws/build/my_py_pkg/build/lib/my_py_pkg
 [0.608s] running install
 [0.608s] running install_lib
-[0.609s] creating /home/stu/ros2-ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
-[0.609s] copying /home/stu/ros2-ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/stu/ros2-ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
-[0.609s] byte-compiling /home/stu/ros2-ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/__init__.py to __init__.cpython-38.pyc
+[0.609s] creating /home/stu/ros2-practice-ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.609s] copying /home/stu/ros2-practice-ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/stu/ros2-practice-ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.609s] byte-compiling /home/stu/ros2-practice-ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/__init__.py to __init__.cpython-38.pyc
 [0.610s] running install_data
-[0.610s] creating /home/stu/ros2-ws/install/my_py_pkg/share/ament_index
-[0.610s] creating /home/stu/ros2-ws/install/my_py_pkg/share/ament_index/resource_index
-[0.611s] creating /home/stu/ros2-ws/install/my_py_pkg/share/ament_index/resource_index/packages
-[0.611s] copying resource/my_py_pkg -> /home/stu/ros2-ws/install/my_py_pkg/share/ament_index/resource_index/packages
-[0.611s] copying package.xml -> /home/stu/ros2-ws/install/my_py_pkg/share/my_py_pkg
+[0.610s] creating /home/stu/ros2-practice-ws/install/my_py_pkg/share/ament_index
+[0.610s] creating /home/stu/ros2-practice-ws/install/my_py_pkg/share/ament_index/resource_index
+[0.611s] creating /home/stu/ros2-practice-ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.611s] copying resource/my_py_pkg -> /home/stu/ros2-practice-ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.611s] copying package.xml -> /home/stu/ros2-practice-ws/install/my_py_pkg/share/my_py_pkg
 [0.611s] running install_egg_info
-[0.612s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/stu/ros2-ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[0.612s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/stu/ros2-practice-ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
 [0.612s] running install_scripts
-[0.626s] writing list of installed files to '/home/stu/ros2-ws/build/my_py_pkg/install.log'
-[0.642s] Invoked command in '/home/stu/ros2-ws/my_py_pkg' returned '0': PYTHONPATH=/home/stu/ros2-ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/stu/ros2-ws/build/my_py_pkg/build install --prefix /home/stu/ros2-ws/install/my_py_pkg --record /home/stu/ros2-ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.626s] writing list of installed files to '/home/stu/ros2-practice-ws/build/my_py_pkg/install.log'
+[0.642s] Invoked command in '/home/stu/ros2-practice-ws/my_py_pkg' returned '0': PYTHONPATH=/home/stu/ros2-practice-ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/stu/ros2-practice-ws/build/my_py_pkg/build install --prefix /home/stu/ros2-practice-ws/install/my_py_pkg --record /home/stu/ros2-practice-ws/build/my_py_pkg/install.log --single-version-externally-managed
