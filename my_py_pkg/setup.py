@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "py_node = my_py_pkg.my_first_node:main"
+            "py_node = my_py_pkg.my_first_node:main",
+            "smartphone_node = my_py_pkg.smartphone:main"
         ],
     },
 )
