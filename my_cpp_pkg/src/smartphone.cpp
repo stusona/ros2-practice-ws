@@ -6,9 +6,12 @@ class SmartphoneNode : public rclcpp::Node
 public:
     SmartphoneNode() : Node("smartphone")
     {
+        // create subscriber that subscribes to "robot_news" and calls "callbackRobotNews" whenever a new message is received
         subscriber_ = this->create_subscription<example_interfaces::msg::String>(
             "robot_news", 10,
             std::bind(&SmartphoneNode::callbackRobotNews, this, std::placeholders::_1));
+        
+        // Print to console that this node has started
         RCLCPP_INFO(this->get_logger(), "smartphone has started.");
     }
 

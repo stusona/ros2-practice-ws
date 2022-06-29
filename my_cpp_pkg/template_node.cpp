@@ -5,6 +5,7 @@ class MyCustomNode : public rclcpp::Node // MODIFY NAME
 public:
     MyCustomNode() : Node("node_name") // MODIFY NAME
     {
+        RCLCPP_INFO(this->get_logger(), "Template node has started");
     }
  
 private:
