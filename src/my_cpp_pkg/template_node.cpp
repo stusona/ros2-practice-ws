@@ -13,9 +13,9 @@ private:
  
 int main(int argc, char **argv)
 {
-    rclcpp::init(argc, argv);
-    auto node = std::make_shared<MyCustomNode>(); // MODIFY NAME
-    rclcpp::spin(node);
-    rclcpp::shutdown();
+    rclcpp::init(argc, argv); // initialize something?
+    auto node = std::make_shared<MyCustomNode>(); // create node MODIFY NAME
+    rclcpp::spin(node); // spin to allow for non-blocking waiting
+    rclcpp::shutdown(); 
     return 0;
 }

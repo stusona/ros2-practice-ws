@@ -1,0 +1,5 @@
+Don't forget to add ros setup, colcon arg complete, and the workspace local setup bash scripts all to your bashrc.
+
+source /opt/ros/foxy/setup.bash
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+source ~/ros2-practice-ws/install/setup.bash
