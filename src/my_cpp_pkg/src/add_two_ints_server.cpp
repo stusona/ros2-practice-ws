@@ -9,20 +9,27 @@ class AddTwoIntsServerNode : public rclcpp::Node
 public:
     AddTwoIntsServerNode() : Node("add_two_ints_server")
     {
+        // create a server with an interface of type "AddTwoInts"
+        // This server runs a callback function when a client sends a request
         server_ = this->create_service<example_interfaces::srv::AddTwoInts>(
             "add_two_ints", 
             std::bind(&AddTwoIntsServerNode::callbackAddTwoInts, this, _1, _2));
+        // print to console
         RCLCPP_INFO(this->get_logger(), "Service server has started");
     }
 
 private:
+    // process the directions from the client
     void callbackAddTwoInts(const example_interfaces::srv::AddTwoInts::Request::SharedPtr request,
                             const example_interfaces::srv::AddTwoInts::Response::SharedPtr response)
     {
-        // process the directions
+        // add a and b from the client request and store in "sum"
         response->sum = request->a + request->b;
-        RCLCPP_INFO(this->get_logger(), "%d + %d = %d", request->a, request->b, response->sum);
+        // print to console
+        RCLCPP_INFO(this->get_logger(), "Server has processed: %d + %d = %d", request->a, request->b, response->sum);
     }
+
+    // Instantiate server object
     rclcpp::Service<example_interfaces::srv::AddTwoInts>::SharedPtr server_;
 };
 
